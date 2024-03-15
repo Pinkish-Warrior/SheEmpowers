@@ -1,0 +1,8 @@
+#hero-image-container {
+    height: 60vh;
+    background-image: linear-gradient(rgba(10, 3, 26, 0.4), rgba(10, 3, 26, 0.7)), url("https://www.krautart.de/wp-content/uploads/2023/05/krautart_abstract_expressionism-women.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
