@@ -1,8 +1,42 @@
 #hero-image-container {
-    height: 60vh;
-    background-image: linear-gradient(rgba(10, 3, 26, 0.4), rgba(10, 3, 26, 0.7)), url("https://www.krautart.de/wp-content/uploads/2023/05/krautart_abstract_expressionism-women.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }
+  height: 60vh;
+  background-image: linear-gradient(rgba(10, 3, 26, 0.4), rgba(10, 3, 26, 0.7)),
+    url("https://www.krautart.de/wp-content/uploads/2023/05/krautart_abstract_expressionism-women.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+body {
+  background-color: #f8b195;
+}
+
+footer {
+  background-color: #c06c84;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.t-profile-img-bg img {
+  /* This will make the images round */
+  border-radius: 50%;
+}
+
+pre {
+  background-color: #f8b195;
+  color: #355c7d;
+  padding: 10px;
+  border-radius: 2px;
+  margin-left: 25%;
+}
+
+.giphy-embed {
+  display: block;
+  text-align: center;
+  /* Center the iframe horizontally */
+}
+.giphy-embed iframe {
+  width: 320px; /* Adjust width as needed */
+  height: 307px; /* Adjust height as needed */
+}
